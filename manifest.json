@@ -1,0 +1,20 @@
+{
+    "name": "FullScreenSoTMap",
+    "version": "1.0",
+    "description": "A extension to put the interactive map of Sea of thieves in fullscreen",
+    "permissions": ["declarativeContent"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+          "matches": ["http://maps.seaofthieves.rarethief.com/*"],
+          "js": ["removePanel.js"]
+        }
+    ],
+    "manifest_version": 2
+}
