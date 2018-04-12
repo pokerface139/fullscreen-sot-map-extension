@@ -1,4 +1,6 @@
-# Fullscreen SoT Map Chrome Extension
+# Fullscreen SoT Map Chrome Extension (deprecated since 11/02/18)
+**Note: this extension is deprecated since the website has changed the side-panel to be hideable**
+
 A chrome extension to remove the side panel on the interactive [**sea-of-thieves map**](http://maps.seaofthieves.rarethief.com/) allowing the map to be displayed in fullscreen.
 
 ## Installation
